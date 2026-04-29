@@ -208,9 +208,10 @@ body{
   justify-content:center;
   animation:fadeIn 1s ease both;
   transform:translateY(10px);
-  height: auto;           /* 🔥 let desktop size naturally */
-  min-height: 0;         /* 🔥 remove desktop lock */
+  height: auto;
+  min-height: 0;
   overflow: visible;
+  padding-right:20px;
 }
 
 .hero-media-wrap{
@@ -274,22 +275,22 @@ body{
   box-shadow:0 14px 30px rgba(0,0,0,.35);
 }
 
-.pill.websites{top:10px;left:-80px;}
-.pill.marketing{top:150px;left:0;}
-.pill.brand{top:260px;left:-100px;}
-.pill.ads{top:60px;right:-10px;}
-.pill.social{bottom:80px;right:-60px;}
+.pill.websites{top:-10px;left:50%;transform:translateX(-50%);}
+.pill.marketing{top:80px;left:-10px;}
+.pill.brand{bottom:80px;left:-40px;}
+.pill.ads{top:80px;right:-40px;}
+.pill.social{bottom:80px;right:-40px;}
 
 /* EXPERIENCE */
 
 .exp{
   position:absolute;
-  right:-220px;
-  top:120px;
+  right:-8px;
+  top:200px;
   background:#fff;
   border:1px solid #eee;
   border-radius:18px;
-  padding:18px 26px;
+  padding:18px 10px;
   text-align:left;
   box-shadow:0 10px 30px rgba(0,0,0,.06);
   z-index:5;
@@ -1357,7 +1358,7 @@ body.menu-open{
     <!-- EXPERIENCE -->
     <div class="exp">
       <h3>1.5+ Years</h3>
-      <p>in Web & Digital Marketing</p>
+      <p>in Web & Development</p>
     </div>
 
   </div>
